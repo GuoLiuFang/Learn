@@ -6,7 +6,7 @@ package gLearn02;
 public class MyDIApplication implements Consumer {
     private MessageService messageService;
 
-    public MyDIApplication(MessageService messageService) {
+    public void setMessageService(MessageService messageService) {
         this.messageService = messageService;
     }
 
