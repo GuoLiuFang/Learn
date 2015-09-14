@@ -29,11 +29,11 @@ public class MyApplication {
      */
 
 
-    public void processMessages(String msg, String rec) {
+    public boolean processMessages(String msg, String rec) {
         /**
          * do some msg validation, manipulation logic
          */
-        this.messageService.sendMessage(msg, rec);
+       return this.messageService.sendMessage(msg, rec);
     }
 
 }
