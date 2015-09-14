@@ -4,8 +4,9 @@ package gLearn02;
  * Created by LiuFangGuo on 9/14/15.
  */
 public class SMSServiceImpl implements MessageService{
-    public void sendMessage(String msg, String rec) {
+    public boolean sendMessage(String msg, String rec) {
         System.out.println("短信发送给" + rec + "内容是：" + msg);
+        return true;
     }
 }
 /**
