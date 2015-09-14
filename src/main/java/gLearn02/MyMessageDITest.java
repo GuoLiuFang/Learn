@@ -24,4 +24,8 @@ public class MyMessageDITest {
         app.processMessages(msg, phone);
 
     }
+    /**
+     * As you can see that our application classes are responsible only for using the service.
+     * 消费者只负责使用，并不负责制造这个东西。。
+     */
 }
